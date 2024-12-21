@@ -6,15 +6,17 @@ body {
 
 
 }
+
 .moon{
     position: absolute;
     top: 50px;
     left: 50px;
 }
-button{
-    background-color: #14213d;
-}
 
+.tree{
+    position: relative;
+    z-index:1;
+}
 /* snow effect */
 .snow, .snow:after, .snow:before{
     content:"";
@@ -61,4 +63,17 @@ button{
     to{
         transform: translateY(650px);
     }
+}
+
+button{
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: #1b263b;
+    color: #fca311;
+
+    width: 100px;
+    border-radius: 10px;
+
+    position: relative;
+    z-index:1;
+    margin-top: 30px;
 }

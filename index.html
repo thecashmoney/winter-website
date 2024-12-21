@@ -11,6 +11,7 @@
         function playSleighBells() {
             document.getElementById("sleigh-bells").play();
             document.getElementById("snow").style.visibility = "visible";
+            document.getElementById("reset").style.visibility = "visible";
         }
     </script>
 </head>
@@ -20,8 +21,15 @@
     <h1>Happy Holidays!</h1>
     <p>Click the <b>tree</b> for some holiday cheer!</p>
     <br />
-    <img onclick="playSleighBells()" src="images/tree.png" alt="tree" style="width: 300px">
+    <div class = "tree">
+        <img onclick="playSleighBells()" src="images/tree.png" alt="tree" style="width: 300px">
+    </div>
     <audio id="sleigh-bells" src="music/sleigh-bells.mp3" preload="auto"></audio>
+
+    <br />
+    <button id="reset" style="visibility:hidden" onclick="location.href='index.html'">
+        <p>Reset</p>
+    </button>
 
     <!-- snow -->
     <div id="snow" class="snow" style="visibility: hidden"></div>
