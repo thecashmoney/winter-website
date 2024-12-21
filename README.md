@@ -1,6 +1,6 @@
 # winter-website
 
-Winter themed website made for Hack Club's boba workshop. If you click the christmas tree, you get a special holiday surprise!
+Winter themed website made for Hack Club's boba workshop. If you click the christmas tree, you get a special holiday surprise!  
 Check it out [here](https://thecashmoney.github.io/winter-website/index.html)!
 
 # Screenshots
