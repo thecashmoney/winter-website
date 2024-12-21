@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Winter Website</title>
+
+    <!-- javascript -->
+    <script>
+        function playSleighBells() {
+            document.getElementById("sleigh-bells").play();
+            document.getElementById("snow").style.visibility = "visible";
+        }
+    </script>
+</head>
+<body>
+    <!-- website -->
+    <br />
+    <h1>Happy Holidays!</h1>
+    <p>Click the <b>tree</b> for some holiday cheer!</p>
+    <br />
+    <img onclick="playSleighBells()" src="images/tree.png" alt="tree" style="width: 300px">
+    <audio id="sleigh-bells" src="music/sleigh-bells.mp3" preload="auto"></audio>
+
+    <!-- snow -->
+    <div id="snow" class="snow" style="visibility: hidden"></div>
+    <!-- id: used for javascript, class: used for css -->
+
+
+    <div class = "moon">
+        <img src="images/moon.png" alt = "moon" style="width:75px">
+    </div>
+</body>
+</html>
